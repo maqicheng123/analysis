@@ -5,7 +5,7 @@ import { Address } from "ethereumjs-util";
 import { Common } from "@rei-network/common";
 import { Database, createEncodingLevelDB } from "@rei-network/database";
 import { StateManager } from "@rei-network/core";
-//stateManager accoubt mekle trie data increase avg  29301.65
+//stateManager account merkle trie data increase avg  29301.65
 const common = new Common({ chain: "rei-devnet" });
 common.setHardforkByBlockNumber(0);
 // const chaindb = createEncodingLevelDB(path.join('/root/mainnet/debug1', 'chaindb'));
